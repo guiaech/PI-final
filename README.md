@@ -12,16 +12,6 @@ Antes de executar o código, certifique-se de ter as seguintes dependências ins
 
 ## Executando o Código
 
-1. Clone este repositório ou baixe o arquivo do script.
-2. Certifique-se de ter instalado as dependências listadas acima.
-3. Execute o script em um ambiente Python.
-
-```bash
-python nome_do_script.py
-```
-
-ou
-
 No Google Colab, simplesmente abra o notebook e execute as células.
 
 ## Descrição do Código
@@ -30,7 +20,7 @@ No Google Colab, simplesmente abra o notebook e execute as células.
 
 - **Carregamento do Modelo YOLOv5:** Utiliza o PyTorch Hub para carregar o modelo YOLOv5s pré-treinado.
 
-- **Movendo o Modelo para GPU (se disponível):** Verifica se há uma GPU disponível e move o modelo para a GPU para aceleração de hardware.
+- **Movendo o Modelo para GPU :** Move o modelo para a GPU para aceleração de hardware.
 
 - **Definindo o Modelo para Modo de Inferência:** Coloca o modelo no modo de inferência, desativando camadas como dropout.
 
